@@ -16,7 +16,7 @@
       <input type="text" id="name">
       <div id="deposit">
         <label for="initialDeposit">Initial Deposit Amount</label>
-        <input type="number" id="initialDeposit">
+        <input type="text" id="initialDeposit">
       </div>
       <button type="submit">Show Balance</button>
     </form>
@@ -24,18 +24,22 @@
     <form id="addTake">
       <h2>Deposit of Withdrawal From Your Balance</h2>
       <div id="userDeposit">
-        <label for="deposit">Deposit Ammount</label>
-        <input type="number" id="deposit">
+        <label for="deposit">Deposit Amount</label>
+        <input type="text" id="deposit">
       </div>
       <div id="userWithdrawal">
-        <label for="withdrawal">Withdrawal</label>
-        <input type="number" id="withdrawaal">
+        <label for="withdrawal">Withdrawal Amount</label>
+        <input type="text" id="withdrawaal">
       </div>
-      <div id=""
+      <div id="">
       <button type="submit">Submit</button>
     </form>
-
-    <div id="output"></div>
+    <div>
+      <div class="well" id="error"></div>
+    </div>
+    <div>
+      <div class="well" id="output"></div>
+    </div>
   </div>
 </body>
 </html>
